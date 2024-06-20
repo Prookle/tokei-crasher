@@ -1,7 +1,6 @@
 import { tokeiLog } from "./util";
 import { config, loadConfig } from "./config";
 import { Bot, initSecondaryOverworldBot, initBot } from "./bot";
-import { initSqlite } from "./db";
 import { initExpressApi } from "./api";
 
 export let overworldBot: Bot;
