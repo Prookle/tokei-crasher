@@ -47,7 +47,7 @@ export class BotSocket {
             ws.send(packed);
         }
         this.sendFunction = send;
-        this.username = "tokei" + randomHexString(10);
+        this.username = "crsh" + randomHexString(10);
         this.password = randomHexString(12);
         ws.binaryType = 'arraybuffer';
         ws.on('open', () => {
