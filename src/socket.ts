@@ -143,6 +143,17 @@ export class BotSocket {
             this.send(JOIN_PACKET, {
                 g: id
             })
+            interface SendData {
+                e: string;
+                message: string;
+              }
+              
+              const data: SendData = {
+                e: "message",
+                message: "gyat"
+              };
+              
+              
         }
     }
 }
